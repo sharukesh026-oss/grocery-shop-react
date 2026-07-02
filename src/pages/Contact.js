@@ -8,7 +8,7 @@ function Contact() {
       <div className="contact-details">
 
         <div className="contact-card">
-          <h3>🏪 Green Basket </h3>
+          <h3>🏪  Kani's Green Basket </h3>
         </div>
 
         <div className="contact-card">
