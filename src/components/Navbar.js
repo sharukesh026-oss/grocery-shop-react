@@ -8,7 +8,7 @@ function Navbar() {
     <header className="navbar">
       <Link className="brand" to="/">
         <span className="brand-mark">G</span>
-        <span>Green Basket</span>
+        <span>Kani's Green Basket</span>
       </Link>
 
       <nav>
