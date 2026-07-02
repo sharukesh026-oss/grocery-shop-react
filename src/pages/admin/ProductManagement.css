@@ -1,0 +1,47 @@
+.admin-container{
+    width:90%;
+    margin:30px auto;
+}
+
+.product-form{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:15px;
+    margin-bottom:30px;
+}
+
+.product-form input{
+    padding:12px;
+    border:1px solid #ccc;
+    border-radius:6px;
+}
+
+.product-form button{
+    padding:12px;
+    background:#0a7c2f;
+    color:white;
+    border:none;
+    border-radius:6px;
+    cursor:pointer;
+}
+
+.product-table{
+    width:100%;
+    border-collapse:collapse;
+}
+
+.product-table th,
+.product-table td{
+    border:1px solid #ddd;
+    padding:12px;
+    text-align:center;
+}
+
+.product-table th{
+    background:#0a7c2f;
+    color:white;
+}
+
+.product-table img{
+    border-radius:8px;
+}
