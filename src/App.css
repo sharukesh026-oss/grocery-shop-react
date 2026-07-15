@@ -413,45 +413,6 @@ td a {
   border-radius: 8px;
 }
 
-.whatsapp-button {
-  position: fixed;
-  right: 30px;
-  bottom: 30px;
-  width: 65px;
-  height: 65px;
-  z-index: 1000;
-  border-radius: 50%;
-  background: #25d366;
-  color: #ffffff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  box-shadow: 0 8px 24px rgba(37, 211, 102, 0.4);
-  transition: transform 0.3s cubic-bezier(0.25, 0.8, 0.25, 1),
-              box-shadow 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
-  animation: whatsapp-pulse 2s infinite;
-}
-
-.whatsapp-button:hover {
-  transform: scale(1.1);
-  box-shadow: 0 12px 30px rgba(37, 211, 102, 0.6);
-}
-
-.whatsapp-svg {
-  display: block;
-}
-
-@keyframes whatsapp-pulse {
-  0% {
-    box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.7), 0 8px 24px rgba(37, 211, 102, 0.4);
-  }
-  70% {
-    box-shadow: 0 0 0 15px rgba(37, 211, 102, 0), 0 8px 24px rgba(37, 211, 102, 0.4);
-  }
-  100% {
-    box-shadow: 0 0 0 0 rgba(37, 211, 102, 0), 0 8px 24px rgba(37, 211, 102, 0.4);
-  }
-}
 
 .footer {
   display: flex;
